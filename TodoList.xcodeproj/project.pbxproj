@@ -13,6 +13,7 @@
 		2773363128FE26D200A21918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2773362F28FE26D200A21918 /* Main.storyboard */; };
 		2773363328FE26D300A21918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2773363228FE26D300A21918 /* Assets.xcassets */; };
 		2773363628FE26D300A21918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2773363428FE26D300A21918 /* LaunchScreen.storyboard */; };
+		2773363E28FE2A6A00A21918 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2773363D28FE2A6A00A21918 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2773363228FE26D300A21918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2773363528FE26D300A21918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2773363728FE26D300A21918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2773363D28FE2A6A00A21918 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2773363228FE26D300A21918 /* Assets.xcassets */,
 				2773363428FE26D300A21918 /* LaunchScreen.storyboard */,
 				2773363728FE26D300A21918 /* Info.plist */,
+				2773363D28FE2A6A00A21918 /* Task.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2773363E28FE2A6A00A21918 /* Task.swift in Sources */,
 				2773362E28FE26D200A21918 /* ViewController.swift in Sources */,
 				2773362A28FE26D200A21918 /* AppDelegate.swift in Sources */,
 				2773362C28FE26D200A21918 /* SceneDelegate.swift in Sources */,
